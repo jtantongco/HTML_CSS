@@ -1,0 +1,21 @@
+/* zeroes anyting else out */
+body {
+	background-color: #e3e3e3;
+	font-family: sans-serif;
+}
+
+.content {
+	margin:auto; /*center image*/
+	width:500px;
+}
+
+blockquote {
+	text-align: center;
+	/* My solution: Actual solution has more contrast
+	border:solid;
+	border-color: #e8e8e8;
+	*/
+	border: 1px solid white;
+	padding: 0.5em;
+	margin: 1em 0em 1em 0em;
+}

@@ -1,0 +1,13 @@
+a { /*All anchor tags*/
+	color:red; 
+	text-decoration:none;
+}
+
+.class1{
+	color:rgb(100,200,150);
+	font-family: helvetica, Arial, sans-serif;
+}
+
+.class2{
+	color:#e3e3e3;
+}

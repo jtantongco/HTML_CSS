@@ -1,0 +1,46 @@
+/* zeroes anyting else out */
+a {
+	color: red;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: sans-serif;
+}
+
+/* Works but bad practice
+h1, p, img{
+	margin-left: 50px;
+}
+*/
+
+div {
+	margin:auto; /*center image*/
+	width:500px;
+	background-color:blue;
+	text-align: center;
+}
+
+#id1{
+	color:red;
+}
+
+.class1{
+	text-decoration: underline;
+}
+
+/*Make the 4th child of any list color orange
+li:nth-child(4){
+	color:orange;
+}
+*/
+
+/*only sect*/
+#sect li:nth-child(4){
+	color:orange;
+}
+
+/* only the first ul's fourth child*/
+ul:first-of-type li:nth-child(4){
+	color:orange
+};

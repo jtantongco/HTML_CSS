@@ -1,0 +1,45 @@
+.wrap{
+	/*width:600px; /*abs*/
+	min-width:600px;
+	width: 80%;
+	margin:auto;
+	background-color: green; 
+	/*only takes up header if floats are present - 
+	so-so simplification that will do for now:
+	floats seem to take it out of the usual flow
+
+	if problem use css clear property
+	alternatively overflow:hidden; in the wrap element
+	*/
+	overflow:hidden;
+}
+
+.content, aside{
+	height:600px;
+} /*Generally want to do heights and widths in relative terms*/
+
+.content{
+	background-color: red;
+	float:left;
+	/*width:450px;/* abs */
+	width:80%;
+}
+
+aside {
+	background: brown;
+	float:left;
+	width:20%;
+}
+
+aside ul{
+	/* padding-left:18px; /*In line with header*/
+	padding-left:0px;
+	list-style: none;/*get rid of bullet */
+}
+
+/*clears any floated elements above it*/ 
+/*	
+footer{
+	clear:both; 
+}
+*/
