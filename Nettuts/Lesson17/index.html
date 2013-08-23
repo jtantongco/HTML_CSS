@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>Change the Title</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- 
+	method: how to transmit data 
+	get: via the url
+	post: slightly more secure
+
+	action: where the data will go
+-->
+<form action="" method="get">
+	<ul>
+		<li>
+			<label for="name">Enter your name:</label>
+			<input  id="name" name="name" /> 
+			<!-- id and name are sorta the same thing -->
+		</li>
+		<li>
+			<label for="comments">Your comments</label>
+			<textarea id="comments" name="comments">Default text </textarea>
+			</textarea>
+		</li>
+		<li>
+			<label for="css">Do you like CSS?</label>
+			<input type="checkbox" name="css" id="css" />
+		</li>
+		<li>
+			<label for="lang">What is your favorite language?</label>
+			<input type="radio"/ id="lang" name="lang"> CSS 
+			<input type="radio"/ id="lang" name="lang"> HTML 
+			<input type="radio"/ id="lang" name="lang"> JS 
+			<input type="radio"/ id="lang" name="lang"> Ruby 
+		</li>
+		<li>
+			<input type="submit" value="Go" />
+		</li>
+	</ul>
+</form>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/handlebars.js"></script>
+
+
+<script type="text/javascript">
+</script>
+
+</body>
+</html>

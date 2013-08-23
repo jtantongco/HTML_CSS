@@ -1,0 +1,8 @@
+h1 {
+	background: url(../img/img1.jpg);
+	/*repeat options: repeat-x repeat-y repeat-*/
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	width:300px;
+	height:300px;
+}
