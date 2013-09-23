@@ -1,0 +1,34 @@
+body {
+	margin: 0px;
+}
+
+.box {
+	width: 400px;
+	height: 400px;
+	/*margin: auto;*/
+	background: red;
+	position: relative; /*Can specify top left right or bottom*/
+	top: 200px; /* from the top, push 200px */
+	/* right: 200px; /* from the right, push 200px */
+	left: 400px;
+}
+
+.wrap {
+	width:800px;
+	height: 1000px;
+	margin:auto;
+	background:#e3e3e3;
+	position: relative; /*see absolute vs relative*/
+	top: 50px;
+}
+
+/*Use absolute positioning for special positioning*/
+.box2 {
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	background: red;
+	position: absolute;
+	top: 20px;
+	left: -40px;
+}
